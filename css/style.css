@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+  
+  background-size: cover;
+  background-position: center;
+  font-family: helvetica bold; 
+  background-color: BurlyWood;
+}
+
+
+
+img {
+    margin: 70px 0px 0px 0px;
+    border: 4px solid white;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px; 
+  }
+
+h4, h3, h1 {
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
