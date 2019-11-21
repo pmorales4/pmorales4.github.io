@@ -1,27 +1,85 @@
 body {
-    text-align: center;
-  
+  text-align: left;
   background-size: cover;
   background-position: center;
   font-family: helvetica bold; 
-  background-color: BurlyWood;
+  background-color: rgb(190, 217, 233);
 }
 
+.flex-container {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: teal;
+}
+
+.grid-container1 {
+  display: inline-grid;
+  grid-template-rows: 50px 50px 50px;
+  background-color: sandybrown;
+}
 
 
 img {
     margin: 70px 0px 0px 0px;
-    border: 4px solid white;
+    border: 4px solid rgb(255, 255, 255);
     border-radius: 100px;
     width: 200px;
     height: 200px; 
   }
 
 h4, h3, h1 {
-    color: white;
+  
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a {
     color: white;
 }
+
+.nav-flex {
+  display: flex;
+  
+}
+
+#titlebar {
+  background-color: tomato;
+}
+
+#aboutme {
+  background-color: red;
+}
+
+#professprojects {
+  background-color: springgreen;
+}
+
+#techused {
+  background-color: violet;
+}
+
+#experience-1 {
+  background-color: yellow;
+}
+
+#ed-obtained {
+  background-color: thistle;
+}
+
+#socialmedia {
+ background-color: turquoise;
+}
+
+footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
