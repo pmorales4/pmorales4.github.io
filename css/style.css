@@ -3,14 +3,16 @@ body {
   background-size: cover;
   background-position: center;
   font-family: helvetica bold; 
-  background-color: rgb(190, 217, 233);
+  background-color: #0b0c10;
+
 }
 
 .flex-container {
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: teal;
+background-color: #0b0c10;
+padding: 6%;
 }
 
 .grid-container1 {
@@ -28,57 +30,107 @@ img {
     height: 200px; 
   }
 
-h4, h3, h1 {
-  
-    color: rgb(0, 0, 0);
+  h1 {
+    font-family: Palatino;
+    font-size: xx-large;
+    text-decoration: underline;
+    color: #66fcf1;
+    
+  }
+
+  h2 {
+    font-size: large;
+    color: #66fcf1;
+  }
+
+h4, h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+    color: #c5c6c7;
     text-decoration: none;
+    line-height: 2px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: #c5c6c7;
 }
 
 a {
-    color: white;
+  color: #66fcf1;
+}
+
+#titlebar {
+font-size: 25px;
+padding: 8%;
+background-color: #0b0c10;
+color: #c5c6c7;
+
 }
 
 .nav-flex {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  
   
 }
 
 #titlebar {
-  background-color: tomato;
+  /*background-color: tomato;*/
+  padding: 8%;
 }
 
 #aboutme {
-  background-color: red;
+  /*background-color: red;*/
+  text-align: center;
+  padding: 8%;
+  
 }
 
 #professprojects {
-  background-color: springgreen;
+ /* background-color: springgreen;*/
+  padding: 10%;
 }
 
 #techused {
-  background-color: violet;
+  /*background-color: violet;*/
+  text-align: center;
+  padding: 10%;
 }
 
 #experience-1 {
-  background-color: yellow;
+  /*background-color: yellow;*/
+  padding: 10%;
 }
 
 #ed-obtained {
-  background-color: thistle;
+ /* background-color: thistle;*/
+ display: grid;
+ display: inline-grid;
+ padding: 6%;
+grid-template-columns: auto auto auto;
+
 }
 
 #socialmedia {
- background-color: turquoise;
+ /*background-color: turquoise;*/
+ padding: 5%;
 }
 
 footer {
   text-align: center;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0%;
 }
 
-
-
-
-
+#text-linksBio {
+  word-spacing: normal;
+}
 
 
 
