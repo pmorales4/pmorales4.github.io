@@ -5,73 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>pmorales.github.io</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Phil Morales</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class='navbar-brand' href="">logo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class='collapse navbar-collapse' id="navbarTogglerDemo02">
+
+            <ul class='navbar-nav ml-auto'>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#about-me">About Me</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#skills-used">Skills</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#experience-obtained">Experience</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#portfolio">Portfolio</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#education-obtained">Education</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#social-networks">Social Media</a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link' href="#contact-me">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <a href="#about-me">About Me</a> -->
+        <!-- <a href="#skills-used">Skills</a> -->
+        <!-- <a href="#experience-obtained">Experience</a> -->
+        <!-- <a href="#portfolio">Portfolio</a> -->
+        <!-- <a href="#education-obtained">Education</a> -->
+        <!-- <a href="#social-networks">Social Media</a> -->
+        <!-- <a href="#contact-me">Contact</a> -->
+    </nav>
+
 </head>
 
 <body>
+    <main>
 
-    <section id="titlebar">
-        <div class="nav-flex">
-
-            <a href="#">Home</a>
-
-            <a href="#aboutme">About Me</a>
-
-            <a href="#techused">Technologies | Frameworks</a>
-
-            <a href="#professprojects">Professional Projects</a>
-
-            <a href="#ed-obtained">Education</a>
-
-            <a href="#experience-1">Experience</a>
-
-            <a href="#socialmedia">Social</a>
-
+        <div id="author-pic">
+            <img src="pics/phil11.png" alt="philly">
         </div>
-        
-    </section>
-
-    <section class="flex-container">
-        <div class="text-linksBio">
-            <a href="/Users/pmorales/SEI/projects/pmorales4.github.io/index1.html">Elevator Pitch</a>
-            <a href="#">Resume Download</a>
-        </div>
-        <div id="my-picture">
-            <img src="pics/phil1.png" alt="philly">
-        </div>
-
-        <div class="description">
+        <div class="author-title">
             <h3>Full Stack Software Engineer </h3>
-            <h4>Web/Mobile Developer</h4>
         </div>
 
-    </section>
+        <hr>
 
-    <section id="aboutme">
-        <div class="about-me">
+        <div id="about-me">
             <h1>Philip Morales</h1>
-
-            <p>Hello. I'm Phil, a software engineer based in northern Virginia who enjoys building and learning new
+            <p>Hello. I'm a software engineer based in northern Virginia who enjoys building and learning new
                 things on the internet.
-                I am self taught as well as within a university setting programming in C, Java, Serlets & JSPs. I am
+                Course completion in the following programming ... C, Java, Serlets & JSPs. I am
                 looking to obtain a full stack software engineer position with a technology company. Below you will find
                 several projects I have
                 done with entail the technologies used on them.
             </p>
         </div>
-    </section>
 
-    <section id="professprojects">
-        <div class="professional-projects">
-            <h1>Professional Projects</h1>
+        <hr>
 
+        <div id="portfolio">
+            <h1>Portfoilo</h1>
         </div>
-    </section>
 
-    <section id="techused">
-        <div class="technology-used">
-            <h1>Languages | Frameworks | Technologies</h1>
+
+        <hr>
+
+
+        <div id="skills-used">
+            <h1>Skills</h1>
             <p>Technologies used on Projects: Github, HTML, CSS, Node.js, Python, Mongo DB, Express,
                 Javascript.............</p>
             <p>Technologies used past and present: HTML, CSS, Java, JDBC within Java, Servlets & JSPs, C Programming
@@ -79,24 +95,21 @@
                 Javascript, JQuery .....................
             </p>
         </div>
-    </section>
 
+        <hr>
 
-
-
-    <section id="experience-1">
-        <div class="experience">
+        <div id="experience-obtained">
             <h1>Experience</h1>
-            <!-- Section 3 (projects, pics, information)-->
-        </div>
-    </section>
 
-    <section id="ed-obtained">
-        <div class="education">
+        </div>
+
+        <hr>
+
+        <div id="education-obtained">
             <h1>Education</h1>
             <div class="grid-item">
                 <h2>General Assembly | New York, New York</h2>
-                <h3>Software Engineering Immersive</h3>
+                <h3>Software Engineering Fellow</h3>
                 <h3>Nov 2019 - Present</h3>
             </div>
             <div class="grid-item">
@@ -106,26 +119,47 @@
             </div>
             <div class="grid-item">
                 <h2>University of Wisconsin-Whitewater</h2>
-                <h3>Curriculum & Instruction</h3>
                 <h3>Master of Science</h3>
             </div>
         </div>
-    </section>
 
+        <hr>
 
-
-    <section id="socialmedia">
-        <div class="social">
+        <div id="social-networks">
             <h1>Social</h1>
         </div>
-    </section>
+        <hr>
 
+        <div id="comtact-me">
+            <h1>Contact</h1>
+        </div>
+
+
+        <hr>
+
+
+    </main>
     <footer>
         <div>
-            <h4>Philip Morales @ pmorales4.github.io.</h4>
+            <h4>Philip Morales</h4>
             <h5>All rights reserved.</h5>
         </div>
     </footer>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
